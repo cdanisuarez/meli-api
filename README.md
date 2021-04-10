@@ -10,6 +10,7 @@ Este proyecto contiene la API pública que se conecta a los servicios de Mercado
 ## Instalación
 
 - Clonar el repositorio
+- Ejecutar `npm install`
 - Ejecutar `npm start`
 
 ## API
