@@ -1,8 +1,8 @@
 'use strict'
 
 const AUTHOR = {
-  name: 'Cindy Daniela',
-  lastname: 'Suarez Gonzalez'
+  name: 'Daniela',
+  lastname: 'Suarez'
 }
 
 const buildSimpleItem = (item) => {
@@ -46,7 +46,7 @@ const getItemByIdWithDescription = (item, description) => {
       item: {
         ...buildSimpleItem(item),
         sold_quantity: item.sold_quantity,
-        plain_text: description.plain_text
+        description: description.plain_text
       },
     }
 
